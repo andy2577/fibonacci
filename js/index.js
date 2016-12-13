@@ -3,8 +3,9 @@ var fib = Number(prompt('Please enter number: '));
 document.write(getFibonacci(fib));
 
 function getFibonacci(num){
-    if(num === 0){
-        return sum;
+    if(num <= 2){
+        return 1;
+    } else {
+        return getFibonacci(num - 1) + getFibonacci(num -2);
     }
-    var sum = num + getFibonacci(num - 1);
 }
