@@ -1,5 +1,7 @@
 var fib = Number(prompt('Please enter number: '));
 
+document.write('Fibonacci Recursion');
+document.write('<br>');
 document.write('Entered value : ' + fib);
 document.write('<br>');
 document.write('Fibonacci value : ' + getFibonacci(fib));
