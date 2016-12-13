@@ -1,6 +1,8 @@
 var fib = Number(prompt('Please enter number: '));
 
-document.write(getFibonacci(fib));
+document.write('Entered value : ' + fib);
+document.write('<br>');
+document.write('Fibonacci value : ' + getFibonacci(fib));
 
 function getFibonacci(num){
     if(num <= 2){
